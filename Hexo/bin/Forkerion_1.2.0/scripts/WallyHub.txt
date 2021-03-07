@@ -1,0 +1,4 @@
+pcall(function()
+shared.whitelist_key = "key_wallyhubtrial";
+loadstring(game:HttpGet("https://wally.cool/whitelist/getfile.lua?id=kAkIOcNg35NZ1qgkS8fKcAyPJgYO9Tyf&type=script"))()
+end)

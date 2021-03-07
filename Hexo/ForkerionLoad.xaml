@@ -1,0 +1,13 @@
+﻿<Window x:Class="Forkerion.ForkerionLoad"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Forkerion"
+        mc:Ignorable="d"
+Title="Forkerion" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" BorderThickness="0" Background="Transparent" Height="400" Width="670" Loaded="Forkerion_Loaded">
+    <Grid>
+        <Image x:Name="ForkerionBG" HorizontalAlignment="Center" Height="168" Margin="236,168,236,64" VerticalAlignment="Center" Width="198" Source="Polygon 2.png"/>
+        <Label x:Name="ForkerionText" Content="Forkerion" HorizontalAlignment="Center" Margin="204,0,199,232" VerticalAlignment="Center" Width="267" FontFamily="Calibri" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Height="168" FontSize="36"/>
+    </Grid>
+</Window>
